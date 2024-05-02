@@ -34,5 +34,9 @@ spec:
       port: 8081
       protocol: TCP
       targetPort: 8081
+    - name: http-8443
+      port: 8443
+      protocol: TCP
+      targetPort: 8081
   selector:
     app: java-springboot-app
